@@ -42,7 +42,7 @@ jobs:
         uses: docker/build-push-action@v2 
         with:
           push: true
-          tags: jony2024/api_yamdb_final
+          tags: jony2024/api_yamdb_final-latest
 
   deploy:
     runs-on: ubuntu-latest
