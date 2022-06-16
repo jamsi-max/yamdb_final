@@ -10,7 +10,7 @@ services:
       - ./.env
 
   web:
-    image: jony2024/api_yamdb_final
+    image: jony2024/api_yamdb_final:latest
     restart: always
     volumes:
       - static_value:/app/static/
