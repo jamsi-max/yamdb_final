@@ -43,7 +43,7 @@ jobs:
         with:
           file: api_yamdb/Dockerfile
           push: true
-          tags: jony2024/api_yamdb_final:latest
+          tags: jony2024/api_yamdb_final
 
   deploy:
     runs-on: ubuntu-latest
