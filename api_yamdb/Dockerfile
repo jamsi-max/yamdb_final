@@ -2,8 +2,8 @@ FROM python:3.7-slim
 RUN mkdir /app
 COPY api_yamdb/requirements.txt /app
 RUN pip install -r /app/requirements.txt --no-cache-dir
-COPY api_yamdb/ /app
-WORKDIR /app
+COPY . /app
+WORKDIR /app/api_yamdb/
 CMD ["python3", "manage.py", "runserver", "0:8000"]
 # FROM python:3.7-slim
 
