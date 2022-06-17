@@ -1,4 +1,3 @@
-# ТУТ
 import os
 from datetime import timedelta
 
@@ -15,8 +14,7 @@ SECRET_KEY = os.getenv("SECRET_KEY", default='p&l%385148kslhtyn^##a1)ilz@4zqj=rq
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["*"]
-
+ALLOWED_HOSTS = ["51.250.111.30"]
 
 # Application definition
 
@@ -68,13 +66,6 @@ WSGI_APPLICATION = "api_yamdb.wsgi.application"
 
 
 # Database
-
-# DATABASES = {
-#     "default": {
-#         "ENGINE": "django.db.backends.sqlite3",
-#         "NAME": os.path.join(BASE_DIR, "db.sqlite3"),
-#     }
-# }
 DATABASES = {
     'default': {
         'ENGINE': os.getenv('DB_ENGINE', default='django.db.backends.postgresql'),

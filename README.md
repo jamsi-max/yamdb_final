@@ -5,6 +5,11 @@
 
 [![yamdb_final](https://github.com/jamsi-max/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/jamsi-max/yamdb_final/actions/workflows/yamdb_workflow.yml)
 #
+###### Проект доступен по адресу
+1) http://51.250.111.30/api/v1/
+2) http://51.250.111.30/admin
+3) http://51.250.111.30/redoc/
+#
 ###### В проекте реализовано
 
 - контейнерезация Docker Compose;
