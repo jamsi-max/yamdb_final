@@ -57,10 +57,10 @@ pip install -r requirements.txt
 ```sh
 docker-compose up -d
 ```
-##### 7. Выполнить миграции:
+##### 7. Выполнить миграции(если ошибка прав доступа то с использованием sudo):
 #
 ```sh
-docker-compose exec web python manage.py migrate
+docker-compose run web python manage.py migrate
 ```
 ##### 8. Заполнить базу тестовыми данными:
 #
