@@ -13,6 +13,7 @@ services:
   web:
     image: jony2024/api_yamdb_final:latest
     restart: always
+    command: python manage.py makemigrations
     command: python manage.py migrate
     volumes:
       - static_value:/app/static/
